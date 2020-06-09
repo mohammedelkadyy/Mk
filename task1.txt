@@ -1,0 +1,14 @@
+Read from the following from: Introduction to: JSON
+https://www.w3schools.com/js/default.asp
+
+Implement loop on the following array and print it
+["Apple", "Orange", "Lemon"]
+
+Concatenate items in array to be like the following
+"Apple :) Orange :) Lemon :("
+
+Print numbers from 1 to 100 using loops
+
+Create function sum five numbers and return there results
+sum_five(1,2,3,4,5) must return 15 in the provided example
+
