@@ -1,0 +1,35 @@
+1. Concatenate items in array to be like the following
+"Apple :) Orange :) Lemon :("
+
+
+2. Given 
+let a = [1, 2, 3, 4, 5];
+let b = ['A', 'B', 'C', 'D', 'E'];
+
+the expected result is
+1 A
+2 B
+3 C
+4 D
+5 E
+
+3. Make a function "array_sum" takes array of numbers as parameters and return thier sum
+
+the expected usage
+let i = [50, 53, 70];
+array_sum(i); // 173
+
+4. Make a for loop on the following array [4, 3, 2, 1] and on each round multiple the number by 2
+
+Expected result:
+8
+6
+4
+2
+
+
+5. Make a function "concat" concat 2 string and return the result
+
+the usage
+concat("A", "B") // AB
+concat("Mohamed", " Elkady") // Mohamed Elkady
