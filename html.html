@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body {
+          background-image: url('file:///C:/Users/pc/Desktop/xikndrghwo5seepef4z9.jpg');
+        }
+
+
+
+
+
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(116, 116, 199) ;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: rgb(207, 207, 236);
+}
+
+
+h1 {
+  color:rgb(207, 207, 236);
+  
+} 
+
+
+
+
+
+
+        </style>
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="file:///C:/Users/pc/Desktop/assignment/html.html#news">Home</a></li>
+        <li><a href="https://www.transfermarkt.com/spieler-statistik/wertvollstemannschaften/marktwertetop">Club</a></li>
+        <li><a href="https://www.transfermarkt.com/statistik/saisontransfers?saison-id=2020">Player</a></li>
+        <li><a href="#about">Live</a></li>
+      </ul>
+
+    <br>
+    <br>
+    <br>
+    <br>
+<h1 style=" font-style: oblique;"> Pro Players <br> Transfer Market </h1>
+<br>
+<br>
+<br>
+<table style="widows: 100px;font-size: 35px ;color: rgb(207, 207, 236);font-style: italic;">
+<tr>
+
+ <th> Player Name ...........</th> 
+<th>Transfer Value</th>
+</tr>
+<tr>
+    <td>Mohammed Salah....... </td>
+    <td>€120.00m</td>
+</tr>
+<tr>
+    <td>Sadio  Mane ......... </td>
+    <td>€120.00m</td>
+</tr>
+<tr>
+    <td>Kylian Mbappé......... </td>
+    <td>€180.00m</td>
+</tr>
+<tr>
+<td>Neymar......... </td>
+    <td>€128.00m</td>
+</tr>
+<tr>
+    <td>Messi......... </td>
+        <td>€112.00m</td>
+    </tr>
+    <tr>
+        <td>Cristiano Ronaldo......... </td>
+            <td>€60.00m</td>
+        </tr>
+</table>
+
+<form style="color: rgb(207, 207, 236);font: xx-large;">
+    <label>Players (between 60 and 180):</label>
+    <input type="range" id="Player" name="Player" min="60" max="180">
+    <input type="submit">
+  </form>
+<h3 style="color:rgb(207, 207, 236) ;">Reference :</h3>
+<a style="color:rgb(236, 207, 207) ;" id="Trans" href="https://www.transfermarkt.com">Transfer Market</a>
+
+<input type="button" onclick="getfocus()" value="Get focus">
+<input type="button" onclick="losefocus()" value="Lose focus">
+
+<script>
+function getfocus() {
+  document.getElementById("Trans").focus();
+}
+
+function losefocus() {
+  document.getElementById("Trans").blur();
+}
+</script>
+
+
+
+
+
+
+</body>
+</html>
